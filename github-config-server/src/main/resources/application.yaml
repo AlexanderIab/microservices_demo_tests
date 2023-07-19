@@ -11,5 +11,5 @@ spring:
           basedir: file://D:/git # cloning location
           clone-on-start: true # clone remote repo to local
           username: AlexanderIab
-          password: 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
+          password: token
           default-label: main # main branch
