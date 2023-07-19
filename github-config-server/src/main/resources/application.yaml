@@ -1,0 +1,15 @@
+server:
+  port: 8888
+spring:
+  application:
+    name: github-config-server
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/AlexanderIab/prop-test.git
+          basedir: file://D:/git # cloning location
+          clone-on-start: true # clone remote repo to local
+          username: AlexanderIab
+          password: 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
+          default-label: main # main branch
